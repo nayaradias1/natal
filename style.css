@@ -60,13 +60,13 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
 }
 .terceira-parte{
-    width: 16%;
+    width: 30%;
     /* border: 1px solid red; */
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 .maozinha{
     width: 275px;
@@ -119,6 +119,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 50px;
     background-color: #FFE9E8;
 }
@@ -138,4 +139,6 @@ footer{
 .img-footer{
     width: 20px;
     margin-left: 10px;
+    background-color: #f8aca8;
+  border-radius: 50px;
 }
