@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+    .inicio {
+        width: 110px;
+        height: 90px;
+        font-size: 11px;
+        align-items: center;
+        border: 1px solid red;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 14px;
+    }
+    .inicio {
+        width: 110px;
+        height: 90px;
+        font-size: 11px;
+        align-items: center;
+    }
+
+  }
+  @media only screen and (max-width: 767px) {
+    .primeira{
+        background-color: #FFE9E8;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 750px;
+        border: 1px solid red;
+    }
+    inicio {
+        width: 110px;
+        height: 90px;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
